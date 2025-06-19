@@ -15,6 +15,7 @@ body::before {
                 radial-gradient(circle at 20% 80%, #6dd5ed33 0%, #fff0 60%);
     pointer-events: none;
 }
+
 .container {
     width: 420px;
     margin: 70px auto 40px auto;

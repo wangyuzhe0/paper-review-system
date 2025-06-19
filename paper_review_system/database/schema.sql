@@ -28,6 +28,7 @@ CREATE TABLE IF NOT EXISTS assignments (
     FOREIGN KEY(reviewer_id) REFERENCES users(id)
 );
 
+
 -- 评审表
 CREATE TABLE IF NOT EXISTS reviews (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
