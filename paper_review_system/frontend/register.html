@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>注册 - 论文评审系统</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>用户注册</h2>
+        <form id="registerForm">
+            <label for="username">用户名：</label>
+            <input type="text" id="username" name="username" required>
+            <label for="email">邮箱：</label>
+            <input type="email" id="email" name="email" required>
+            <label for="password">密码：</label>
+            <input type="password" id="password" name="password" required>
+            <label for="role">角色：</label>
+            <select id="role" name="role" required>
+                <option value="author">作者</option>
+                <option value="reviewer">评审</option>
+                <option value="admin">管理员</option>
+            </select>
+            <button type="submit">注册</button>
+        </form>
+        <p>已有账号？<a href="index.html">登录</a></p>
+        <div id="registerMessage"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
