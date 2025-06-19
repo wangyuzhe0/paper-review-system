@@ -16,6 +16,7 @@ function showUserInfo(user) {
     document.getElementById('logoutBtn').style.display = 'inline-block';
 }
 
+
 async function logout() {
     await fetch('/api/logout', {method: 'POST', credentials: 'include'});
     window.location.href = 'index.html';

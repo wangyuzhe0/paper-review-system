@@ -18,6 +18,7 @@ if (document.getElementById('loginForm')) {
         }
     }
 }
+
 // 注册功能
 if (document.getElementById('registerForm')) {
     document.getElementById('registerForm').onsubmit = async function(e) {
